@@ -1,0 +1,167 @@
+.add-network-container {
+  padding: 2rem;
+}
+
+.add-network-header {
+  margin-bottom: 2rem;
+}
+
+.add-network-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin: 0;
+}
+
+.add-network-header .subtitle {
+  color: #64748b;
+  margin: 0.5rem 0 0 0;
+  font-size: 1rem;
+}
+
+.add-network-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.network-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.network-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.network-header {
+  position: relative;
+  padding: 1rem;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.network-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  font-size: 1.5rem;
+  color: #fbbf24;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.favorite-button:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.favorite-button.active {
+  color: #f59e0b;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.network-info {
+  padding: 1.5rem;
+}
+
+.network-info h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.network-title {
+  color: #64748b;
+  font-size: 0.875rem;
+  margin: 0.5rem 0;
+}
+
+.network-affiliation {
+  color: #475569;
+  font-size: 0.875rem;
+  margin: 0.5rem 0;
+}
+
+.network-expertise {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.expertise-tag {
+  background: #e2e8f0;
+  color: #475569;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.network-publications {
+  margin: 1rem 0;
+}
+
+.network-publications h4 {
+  color: #1e293b;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.network-publications ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.network-publications li {
+  color: #64748b;
+  font-size: 0.875rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.network-publications li:last-child {
+  border-bottom: none;
+}
+
+.add-to-network-button {
+  width: 100%;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+}
+
+.add-to-network-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.1);
+} 
